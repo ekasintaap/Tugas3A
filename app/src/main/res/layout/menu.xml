@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageViewhospital"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:onClick="clickRS"
+            app:srcCompat="@drawable/hospital"
+            tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml"
+            android:contentDescription="@string/hospital" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/imageViewolice"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            app:srcCompat="@drawable/police"
+            android:contentDescription="@string/police" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/imageViewshop"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            app:srcCompat="@drawable/shopping"
+            android:contentDescription="@string/shop" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/imageViewschool"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            app:srcCompat="@drawable/sekolah"
+            android:contentDescription="@string/school" />
+    </TableRow>
+
+</LinearLayout>

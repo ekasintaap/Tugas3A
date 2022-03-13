@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LetGO App</string>
+    <string name="police">Police</string>
+    <string name="hospital">HospitaL</string>
+    <string name="shop">Shop</string>
+    <string name="school">School</string>
+</resources>
